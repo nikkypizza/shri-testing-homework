@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha \"./tests/**/*.js\"",
     "start": "node ./bin/www",
-    "devstart": "ndb ./bin/www"
+    "devstart": "ndb ./bin/www",
+    "eslint": "eslint \"./tests/**/*.js\" --fix"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,8 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "eslint": "^5.7.0",
+    "eslint-config-htmlacademy": "^0.5.2",
     "mocha": "^5.2.0",
     "ndb": "^1.0.26",
     "nodemon": "^1.18.4",
